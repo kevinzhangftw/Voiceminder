@@ -1,0 +1,8 @@
+gTTS==1.2.2
+gTTS-token==1.1.1
+pocketsphinx==0.1.3
+pyasn1==0.3.4
+PyAudio==0.2.11
+SpeechRecognition==3.7.1
+urllib3==1.21.1
+virtualenv==15.1.0
