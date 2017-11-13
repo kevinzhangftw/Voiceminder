@@ -7,6 +7,10 @@ nlp = spacy.load('en')
 # print(userinput)
 doc = nlp(userinput)
 
+for token in doc:
+    print(token.text, token.lemma_, token.pos_, token.tag_, token.dep_,
+          token.shape_, token.is_alpha, token.is_stop)
+
 # print each sentence
 # for sent in doc.sents:
 #     print(sent)
@@ -36,7 +40,7 @@ doc = nlp(userinput)
 # print(boots.similarity(hippos))
 
 # Print similarity between sentence and word 'korean'
-word = doc.vocab[u'fat']
+word = doc.vocab[u'steak']
 for sent in doc.sents:
 	print(sent.similarity(word))
 	
