@@ -15,6 +15,9 @@ Install or upgrade to python3
 `mkdir ~/Python_envs`
 `virtualenv -p /usr/local/bin/python3 ~/Python_envs/Voiceminder`
 
+- Install Swig:
+`brew install swig`
+
 - activate the virtualenv enviornment in the text-speech folder
 `source ~/Python_envs/Voiceminder/bin/activate`
 - install requirements
